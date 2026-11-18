@@ -5,6 +5,7 @@
 from . import cache, cohorts, factorize
 from .aggregations import Aggregation, Scan, is_supported_aggregation
 from .core import groupby_reduce
+from .events import EventTable, find_events, label_events, reduce_events
 from .options import set_options
 from .rechunk import rechunk_for_blockwise, rechunk_for_cohorts
 from .reindex import ReindexArrayType, ReindexStrategy
@@ -24,9 +25,13 @@ __version__ = _get_version()
 
 __all__ = [
     "Aggregation",
+    "EventTable",
     "Scan",
+    "find_events",
     "groupby_reduce",
     "groupby_scan",
+    "label_events",
+    "reduce_events",
     "rechunk_for_blockwise",
     "rechunk_for_cohorts",
     "set_options",

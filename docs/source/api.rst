@@ -13,6 +13,20 @@ Functions
     groupby_scan
     xarray.xarray_reduce
 
+Exceedance events
+~~~~~~~~~~~~~~~~~
+
+Detect consecutive exceedance events along an ordered time axis and reduce
+their observations with the existing groupby engine.
+
+.. autosummary::
+    :toctree: generated/
+
+    label_events
+    reduce_events
+    find_events
+    EventTable
+
 Rechunking
 ~~~~~~~~~~
 

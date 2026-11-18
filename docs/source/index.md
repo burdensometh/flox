@@ -67,6 +67,7 @@ It was motivated by many discussions in the [Pangeo](https://pangeo.io) communit
    engines.md
    arrays.md
    implementation.md
+   events.md
    xarray.md
    user-stories.md
    api.rst
